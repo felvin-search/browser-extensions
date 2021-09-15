@@ -1,0 +1,21 @@
+{
+  "name": "Felvin Search",
+  "description": "Your search box is an app store 🎉",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "assets/logo_16x16.png",
+    "48": "assets/logo_48x48.png",
+    "128": "assets/logo_128x128.png"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Felvin",
+      "keyword": "q",
+      "search_url": "https://felvin.com/search?q={searchTerms}",
+      "favicon_url": "https://felvin.com/favicon.ico",
+      "is_default": true,
+      "encoding": "UTF-8"
+    }
+  }
+}
