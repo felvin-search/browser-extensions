@@ -1,7 +1,7 @@
 {
-  "name": "Felvin Search",
-  "description": "Your search box is an app store 🎉",
-  "version": "1.0",
+  "name": "Felvin Search Engine Default",
+  "description": "Sets your default search engine to Felvin",
+  "version": "1.0.0",
   "manifest_version": 3,
   "icons": {
     "16": "assets/logo_16x16.png",
